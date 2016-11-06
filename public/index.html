@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDM1C_5Xnh0KTBcXOjNm6fE5l1eoIHSGWM",
+        authDomain: "onechat-9042c.firebaseapp.com",
+        databaseURL: "https://onechat-9042c.firebaseio.com"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <title>Firebase Placeholder</title>
+  </head>
+
+  <body>
+    <button id="login">Login</button>
+    <button id="logout">Logout</button>
+    <div id="comment-container"></div>
+    <input id="comment-input" type="text"></input>
+
+    <script src="script/main.js"></script>
+  </body>
+</html>
